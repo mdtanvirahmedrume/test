@@ -14,10 +14,17 @@
     width: 20%;
 }
 .p2{
-    color: aquamarine;
+    color: rgb(51, 136, 108);
     border: 3px solid black;
     border-radius: 2px;
     display: inline-block;
     width: 20%;
-
+}
+#tit{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(226, 220, 220);
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 480px;
+    margin-right: 480px;
 }
