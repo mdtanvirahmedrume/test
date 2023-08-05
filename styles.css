@@ -1,0 +1,23 @@
+.h1{
+    border: 2px solid rgb(192, 191, 191);
+    color: rgb(91, 201, 201);
+    padding: 4px;
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+}
+.p1{
+    color: rgb(226, 135, 16);
+    border: 2px solid red;
+    padding: 4px 2px 2px 2px;
+    display: inline-block;
+    width: 20%;
+}
+.p2{
+    color: aquamarine;
+    border: 3px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    width: 20%;
+
+}
