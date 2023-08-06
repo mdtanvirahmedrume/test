@@ -27,6 +27,7 @@ input:focus{
     margin: 2px
 }
 .btn{
+    margin-top: 5px;
     color: black;
     background-color: aqua;
     border: 1px solid gray;
