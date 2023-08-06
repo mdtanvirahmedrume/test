@@ -1,30 +1,49 @@
-.h1{
-    border: 2px solid rgb(192, 191, 191);
-    color: rgb(91, 201, 201);
-    padding: 4px;
+input:focus{
+    color: black;
+    font-size: medium;
+}
+.in{
+    background-color: aliceblue;
+    width: 35%;
     text-align: center;
-    width: 20%;
-    display: inline-block;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Courier New', Courier, monospace;
 }
-.p1{
-    color: rgb(226, 135, 16);
-    border: 2px solid red;
-    padding: 4px 2px 2px 2px;
-    display: inline-block;
-    width: 20%;
+#input{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    margin: 2px;
 }
-.p2{
-    color: rgb(51, 136, 108);
-    border: 3px solid black;
+#em{
+    padding: 5px;
+    margin: 2px
+}
+#pwd{
+    padding: 5px;
+    margin: 2px
+}
+.btn{
+    color: black;
+    background-color: aqua;
+    border: 1px solid gray;
     border-radius: 2px;
-    display: inline-block;
-    width: 20%;
+    padding: 4px 4px 5px 7px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-decoration: none;
 }
-#tit{
-    color: rgb(0, 0, 0);
-    border: 1px solid rgb(226, 220, 220);
-    text-align: center;
-    padding-left: 30px;
-    margin-left: 480px;
-    margin-right: 480px;
+.btn:hover{
+    cursor: pointer;
 }
+.btn:active{
+    color: red;
+}
+.btn:visited{
+    color: black;
+}
+
